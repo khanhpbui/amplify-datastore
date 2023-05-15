@@ -1,10 +1,6 @@
-type Task @model {
+type Message @model {
   id: ID!
   title: String!
-  description: String
-  status: String
-}
-type Note @model {
-  id: ID!
-  content: String!
+  color: String
+  createdAt: String
 }
